@@ -3,7 +3,7 @@
 	include ("../Fechas.php");
 	
 	$noticias = new News;
-	$noticias->Conexion = "../../rao/sas_con.php";
+	$noticias->Conexion = "/rao/rao_con.php";
 	
 	$Desde = ($_POST["Desde"])?InsertFecha($_POST["Desde"]):"";
 	$Hasta = ($_POST["Hasta"])?InsertFecha($_POST["Hasta"]):"";	

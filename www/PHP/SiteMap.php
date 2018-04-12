@@ -1,7 +1,7 @@
 <?php
 
 error_reporting (0); 
-include("../rao/sas_con.php"); 
+include($_SERVER['DOCUMENT_ROOT']."/rao/rao_con.php"); 
 
 $dominio = "http://inc.uab.cat/Catala";
 

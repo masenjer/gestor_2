@@ -38,7 +38,7 @@ function MostraMenuCapcalera()
                 </div>
                 
                 
-                <ul class="idiomes">
+               <?php /* <ul class="idiomes">
                     <li><a href='' lang="es" name='Castellano'>Castellano</a></li>
                     <li class="last-child"><a href='' lang="en" name='English'>English</a></li>
                 </ul>
@@ -58,12 +58,15 @@ function MostraMenuCapcalera()
                         </a>
                     </li>                    
                     <li>
-                        <a href="http://www.scopus.com/affil/profile.url?afid=60104667&offset=1&sid=171A41E8C797E54E2A2A8F174996C47A.WlW7NKKC52nnQNxjqAQrlA%3a120&origin=AffiliationNamesList&txGid=171A41E8C797E54E2A2A8F174996C47A.WlW7NKKC52nnQNxjqAQrlA%3a14 " target="_blank"><img src="img/scopus.jpg" style="width:30px; border:none;" /></a>
+                        <a href="http://www.scopus.com/affil/profile.url?afid=60104667&offset=1&sid=171A41E8C797E54E2A2A8F174996C47A.WlW7NKKC52nnQNxjqAQrlA%3a120&origin=AffiliationNamesList&txGid=171A41E8C797E54E2A2A8F174996C47A.WlW7NKKC52nnQNxjqAQrlA%3a14 " target="_blank"><img src="/img/scopus.jpg" style="width:30px; border:none;" /></a>
                     </li>
                     <li>
-                        <a href="https://ddd.uab.cat/collection/inc?ln=ca" target="_blank"><img src="img/ddd_logo.jpg" style="height:30px; border:none;" /></a>
+                        <a href="https://ddd.uab.cat/collection/inc?ln=ca" target="_blank"><img src="/img/ddd_logo.jpg" style="height:30px; border:none;" /></a>
                     </li>                                        
                 </ul>
+
+                */
+                ?>
                 
                 
             </div>

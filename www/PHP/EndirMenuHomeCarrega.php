@@ -1,6 +1,6 @@
 <?php
-include("../rao/sas_con.php");
-include("../rao/PonQuita.php"); 
+include($_SERVER['DOCUMENT_ROOT']."/rao/rao_con.php");
+include($_SERVER['DOCUMENT_ROOT']."/rao/PonQuita.php"); 
 
 ini_set("session.gc_maxlifetime",3);
 ini_set('session.cache_expire',3);

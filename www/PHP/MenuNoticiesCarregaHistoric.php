@@ -1,6 +1,6 @@
 <?php
-include("../rao/sas_con.php");
-include("../rao/PonQuita.php"); 
+include($_SERVER['DOCUMENT_ROOT']."/rao/rao_con.php");
+include($_SERVER['DOCUMENT_ROOT']."/rao/PonQuita.php"); 
 session_start();
 
 $SQL = "SELECT IdNoticia, Titol, Rang FROM Noticias WHERE IdSite =".$_SESSION["IdSite"]." AND Rang is NULL order by FechaNot DESC";

@@ -1,6 +1,6 @@
 <?php
-include("../rao/sas_con.php");
-include("../rao/PonQuita.php"); 
+include($_SERVER['DOCUMENT_ROOT']."/rao/rao_con.php");
+include($_SERVER['DOCUMENT_ROOT']."/rao/PonQuita.php"); 
 
 ////id:id,N:N,A:A,E:E,U:U,P:P,R1:R1,R2:R2,R3:R3,R4:R4
 

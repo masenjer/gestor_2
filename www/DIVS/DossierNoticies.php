@@ -2,7 +2,7 @@
 function MostraDossierNoticies()
 {
 ?>
-<div id="DIVDossierNoticies" style=" position:fixed; top:0; left:0; width:100%; height:100%;  background:url(img/NegroTrans.png);">
+<div id="DIVDossierNoticies" style=" position:fixed; top:0; left:0; width:100%; height:100%;  background:url(/img/NegroTrans.png);">
 	<div class="CosDossierDossierNoticies">
     	<!--Cabecera del formulario-->
         <div class="CapcaleraDossierNoticies">

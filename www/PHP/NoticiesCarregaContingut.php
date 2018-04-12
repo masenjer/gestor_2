@@ -1,6 +1,6 @@
 <?php
-include("../rao/sas_con.php");
-include("../rao/PonQuita.php"); 
+include($_SERVER['DOCUMENT_ROOT']."/rao/rao_con.php");
+include($_SERVER['DOCUMENT_ROOT']."/rao/PonQuita.php"); 
 include("Fechas.php");
 
 session_start();
@@ -31,7 +31,7 @@ if (!$result = $mysqli->query($SQL))printf("Errormessage: %s\n", mysqli_error($m
 {
 //	if (CompruebaSiPublicado($row["FechaPub"],$row["FechaDesPub"]) == 1)
 //	{
-	if ($row["NOU"] == "1") $NOU = '<img src="img/NOU.gif" style="padding-left:10px" />';
+	if ($row["NOU"] == "1") $NOU = '<img src="/img/NOU.gif" style="padding-left:10px" />';
 	else $NOU = "";
 	
 	$resultado = $resultado . '

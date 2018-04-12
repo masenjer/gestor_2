@@ -4,7 +4,7 @@ function CarregaAplicacio()
 ?>
 
 
-<header class="header" role="banner">
+<header class="header" role="banner"> 
 
 <!-- #access -->
 
@@ -44,7 +44,7 @@ function CarregaAplicacio()
            
               
                   
-                    <span class="header-title"><a href="index.php">Institut de Neurociències UAB</a></span>
+                    <span class="header-title"><a href="index.php">Máster en diagnóstico y tratamiento del pie diabético</a></span>
                   
                
           
@@ -66,8 +66,8 @@ function CarregaAplicacio()
                  
                     
                     
-                        <div class="col-md-4 hidden-xs hidden-sm">
-                          <h1 class="page-title" role="heading" aria-level="1"><a href="index.php">Institut de Neurociències UAB</a></h1>
+                        <div class="col-md-5 hidden-xs hidden-sm">
+                          <h1 class="page-title" role="heading" aria-level="1"><a href="index.php">Máster en diagnóstico y tratamiento del pie diabético</a></h1>
                     
                     </div>
                 
@@ -157,9 +157,10 @@ function CarregaAplicacio()
 <footer class="footer" role="contentinfo"> 
 <div class="container">
     <div class="row">
-
-        
-             <div class="col-md-4">
+    
+    
+         <div class="col-md-4">
+          <h2 class="negreta small">Reconeixement internacional de l'excel·lència</h2>
                 <a href="http://www.uab.cat/cei" class="logo col-sm-6">
                  <span class="ico logo-cei" aria-hidden="true"></span>
                  <span class="sr-only">Campus d'Excel·lència Internacional</span>
@@ -168,37 +169,33 @@ function CarregaAplicacio()
                  <span class="ico hrexcellence" aria-hidden="true"></span>
                  <span class="sr-only">HR Excellence in Research - Euraxess</span>
                 </a>
-              </div>         
-        
+            </div>     
+      
+  
+    <div class="col-md-8">
     
-        <div class="col-md-8">
-            <div class="credits">
-                <ul class="legal">
-               
-               
-               
+      <div class="credits">
+        <ul class="legal">   
+          <li><a href="index.php" title="">Inici </a></li>
+          <li><a href="/web/coneix-la-uab-cei/itineraris/avis-legal-1345668257191.html" title="">Avís legal </a></li>
+          <li><a href="/web/coneix-la-uab-cei/itineraris/proteccio-de-dades-1345668257177.html" title=" ">Protecció de dades</a></li>
+          <li><a href="http://crd.uab.cat" title="">Sobre el web</a></li>  
+        </ul>
+        
+          
+          
+          
                     
-                
-                
-                
-                
-                        <!--  No se ha recibido la lista de links: ERROR= -10005--> 
-                </ul>
-                
-                    
-                    
-                    
-                              
-                    
-                    
-                    
-                    
-                <p class="drets">
-                    © 2017 <a href="http://crd.uab.cat">Centre de Recursos Docents</a>  - &nbsp;
-                </p>
-            </div>
-        </div>
+          
+          
+          
+          
+        <p class="drets">
+          2018 Universitat Autònoma de Barcelona 
+        </p>
+      </div>
     </div>
+  </div>
 
     
     

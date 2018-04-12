@@ -1,6 +1,6 @@
 <?php
-include("../rao/sas_con.php");
-include("../rao/PonQuita.php"); 
+include($_SERVER['DOCUMENT_ROOT']."/rao/rao_con.php");
+include($_SERVER['DOCUMENT_ROOT']."/rao/PonQuita.php"); 
 session_start();
 
 $SQL = "SELECT IdNoticia, Titol FROM Noticias WHERE IdSite =".$_SESSION["IdSite"]." order by IdNoticia DESC";
@@ -14,7 +14,7 @@ $resultado = '
 {
 	$resultado = $resultado . '
 	<tr valign="middle">
-		<td height="40px" id="MenuNoticias'.$row["IdNoticia"].'" onClick="CargaNoticias('.$row["IdNoticia"].')" background="img/LinHistoricoNoticias.png" align="center">						
+		<td height="40px" id="MenuNoticias'.$row["IdNoticia"].'" onClick="CargaNoticias('.$row["IdNoticia"].')" background="/img/LinHistoricoNoticias.png" align="center">						
 			'.$row["Titol"].'
 		</td>		
 	</tr>';

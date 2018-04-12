@@ -1,5 +1,5 @@
 <?php
-include("../rao/sas_con.php");
+include($_SERVER['DOCUMENT_ROOT']."/rao/rao_con.php");
 
 $SQL = "SELECT * FROM Users";
 
@@ -7,13 +7,13 @@ $resultado = '
 <input type="hidden" id="LineaGridActiu">
 	<table width="640px" height="200px" cellpadding="0" cellspacing="0" border="0">
 		<tr class="CapGrid">
-			<td width="10px" background="img/Grid/CSI.png"></td>
-			<td height="27px" background="img/Grid/CSC.png">&nbsp;&nbsp;&nbsp;Usuario</td>
-			<td height="27px" width="70px" background="img/Grid/CSC.png" align="center">Usuario</td>
-			<td height="27px" width="70px" background="img/Grid/CSC.png" align="center">Creación</td>
-			<td height="27px" width="70px" background="img/Grid/CSC.png" align="center">Edición</td>
-			<td height="27px" width="59px" background="img/Grid/CSC.png" align="right">Home</td>
-			<td width="11px" background="img/Grid/CSD.png"></td>
+			<td width="10px" background="/img/Grid/CSI.png"></td>
+			<td height="27px" background="/img/Grid/CSC.png">&nbsp;&nbsp;&nbsp;Usuario</td>
+			<td height="27px" width="70px" background="/img/Grid/CSC.png" align="center">Usuario</td>
+			<td height="27px" width="70px" background="/img/Grid/CSC.png" align="center">Creación</td>
+			<td height="27px" width="70px" background="/img/Grid/CSC.png" align="center">Edición</td>
+			<td height="27px" width="59px" background="/img/Grid/CSC.png" align="right">Home</td>
+			<td width="11px" background="/img/Grid/CSD.png"></td>
 		</tr>';
 
 $i = 0;
@@ -23,7 +23,7 @@ while ($row = $result->fetch_assoc())
 {
 	if (($i % 2)!=0)
 	{
-		$color = '';//' background="img/Grid/GrisTrans.png"';
+		$color = '';//' background="/img/Grid/GrisTrans.png"';
 	}
 	else
 	{
@@ -91,17 +91,17 @@ $resultado = $resultado.'
 			<td colspan="7" height="9px">
 				<table width="100%" height="100%" cellspacing="0" cellpadding="0" border="0">				
 					<tr>
-						<td width="10px" style="background:URL(img/Grid/CII.png);background-repeat: repeat-y;"></td>
-						<td style="background:URL(img/Grid/CIC.png);background-repeat: repeat-x;"></td>
+						<td width="10px" style="background:URL(/img/Grid/CII.png);background-repeat: repeat-y;"></td>
+						<td style="background:URL(/img/Grid/CIC.png);background-repeat: repeat-x;"></td>
 						<td  bgcolor="#bababa" width="1px" bgcolor="#bababa"></td>
-						<td style="background:URL(img/Grid/CIC.png);background-repeat: repeat-x;" width="69px" align="center"></td>
+						<td style="background:URL(/img/Grid/CIC.png);background-repeat: repeat-x;" width="69px" align="center"></td>
 						<td  bgcolor="#bababa" width="1px" bgcolor="#bababa"></td>
-						<td style="background:URL(img/Grid/CIC.png);background-repeat: repeat-x;" width="69px" align="center"></td>
+						<td style="background:URL(/img/Grid/CIC.png);background-repeat: repeat-x;" width="69px" align="center"></td>
 						<td  bgcolor="#bababa" width="1px" bgcolor="#bababa"></td>
-						<td style="background:URL(img/Grid/CIC.png);background-repeat: repeat-x;" width="69px" align="center"></td>
+						<td style="background:URL(/img/Grid/CIC.png);background-repeat: repeat-x;" width="69px" align="center"></td>
 						<td  bgcolor="#bababa" width="1px" bgcolor="#bababa"></td>
-						<td  style="background:URL(img/Grid/CIC.png);background-repeat: repeat-x;"width="59px" align="center"></td>
-						<td width="11px" background="img/Grid/CID.png"></td>
+						<td  style="background:URL(/img/Grid/CIC.png);background-repeat: repeat-x;"width="59px" align="center"></td>
+						<td width="11px" background="/img/Grid/CID.png"></td>
 					</tr>
 				</table>
 			</td>
@@ -120,7 +120,7 @@ function BuscaVerdadero($v)
 {
 	if ($v == "1")
 	{
-		return '<img src="img/Grid/true.png">';	
+		return '<img src="/img/Grid/true.png">';	
 	}else
 	{
 		return "";	

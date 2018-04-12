@@ -1,5 +1,5 @@
 <?php
-include("../rao/sas_con.php");
+include($_SERVER['DOCUMENT_ROOT']."/rao/rao_con.php");
 error_reporting(E_ALL);
 $id = $_GET["id"];
 $ruta = $_GET["ruta"];

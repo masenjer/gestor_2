@@ -1,5 +1,5 @@
 <?php
-include("../rao/sas_con.php");
+include($_SERVER['DOCUMENT_ROOT']."/rao/rao_con.php");
 
 
 $SQL = "SELECT Orden from IMGHome ORDER By Orden Desc LIMIT 1" ;

@@ -25,7 +25,7 @@ function CarregaAplicacioDirectoriFitxa()
     </tr>
     <tr>
     	<td id="PeuPagina" class="PeuPagina" colspan="2" height="145px"><div style="width:100%"></div>
-<!--        	<img src="img/PeuPagina.jpg" width="100%" height="175px" />
+<!--        	<img src="/img/PeuPagina.jpg" width="100%" height="175px" />
 -->        </td>
     </tr>
 

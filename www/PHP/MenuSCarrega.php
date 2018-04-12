@@ -1,5 +1,5 @@
 <?php
-include("../rao/sas_con.php");
+include($_SERVER['DOCUMENT_ROOT']."/rao/rao_con.php");
 
 ini_set("session.gc_maxlifetime",3);
 ini_set('session.cache_expire',3);
@@ -77,12 +77,12 @@ if (!$direccion) $direccion = 'index.php#!/MS_'.$row["IdCapMenu"];
 	{
 		$DobleClic = 'ondblclick="EditaTitolMS('.$row["IdCapMenu"].')"';	
 		
-		$delete = '<td align="left" width="19px"><input type="text" style="height:21px;width:21px;vertical-align:middle;" id="OrdenMS'.$row["IdCapMenu"].'" value="'.$row["Orden"].'"  onKeyPress="submitenter(6,event,'.$row["IdCapMenu"].')"><img id="ImageMS" src="img/delete.jpg" onClick="MostraEliminaTOT(0,'.$row["IdCapMenu"].');"  style="vertical-align:middle; height: 24px;"></td>';
-		$stilo = 'style="background-image:URL(img/CapcaRelleu2.png);"';
+		$delete = '<td align="left" width="19px"><input type="text" style="height:21px;width:21px;vertical-align:middle;" id="OrdenMS'.$row["IdCapMenu"].'" value="'.$row["Orden"].'"  onKeyPress="submitenter(6,event,'.$row["IdCapMenu"].')"><img id="ImageMS" src="/img/delete.jpg" onClick="MostraEliminaTOT(0,'.$row["IdCapMenu"].');"  style="vertical-align:middle; height: 24px;"></td>';
+		$stilo = 'style="background-image:URL(/img/CapcaRelleu2.png);"';
 	}
 	else
 	{
-		$stilo = 'style="background-image:URL(img/CapcaRelleu2.png);"';	
+		$stilo = 'style="background-image:URL(/img/CapcaRelleu2.png);"';	
 	}
 
 	echo  '

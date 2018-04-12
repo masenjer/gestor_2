@@ -1,6 +1,6 @@
 <?php
-include("../rao/sas_con.php");
-include("../rao/PonQuita.php"); 
+include($_SERVER['DOCUMENT_ROOT']."/rao/rao_con.php");
+include($_SERVER['DOCUMENT_ROOT']."/rao/PonQuita.php"); 
 include("Fechas.php");
 
 session_start();
@@ -27,7 +27,7 @@ $primera = true;
 	{
 		$i%=2;
 		
-		if ($row["NOU"] == "1") $NOU = '<img src="img/NOU.gif" style="padding-left:10px" />';
+		if ($row["NOU"] == "1") $NOU = '<img src="/img/NOU.gif" style="padding-left:10px" />';
 		else $NOU = "";
 		
 		$obre = "";

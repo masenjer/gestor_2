@@ -7,7 +7,7 @@ function MostraMenuColor()
 <table width="105px" height="145px"  cellpadding="0" cellspacing="0" border="0" bgcolor="#666666">
 	<tr>
     	<td class="TitolHome"  style="width:105px;height:25px;" colspan="3" align="left" >
-        	<div style="width:105px;height:20px; vertical-align:middle; background-image:url(img/CapcaRelleu.png); padding-top:5px;padding-left:5px;">
+        	<div style="width:105px;height:20px; vertical-align:middle; background-image:url(/img/CapcaRelleu.png); padding-top:5px;padding-left:5px;">
             	Color web
             </div>
         </td>
@@ -24,7 +24,7 @@ function MostraMenuColor()
     </tr>
 	<tr>
     	<td class="TitolHome" colspan="3" align="left"  style="width:105px;height:25px;">
-        	<div style="width:105px;height:20px; vertical-align:middle; background-image:url(img/CapcaRelleu.png); padding-top:5px; padding-left:5px;">
+        	<div style="width:105px;height:20px; vertical-align:middle; background-image:url(/img/CapcaRelleu.png); padding-top:5px; padding-left:5px;">
             	Color botons
             </div>
         </td>
@@ -41,7 +41,7 @@ function MostraMenuColor()
     </tr>
     <tr>
     	<td colspan="3" align="left"  style="width:100px;height:25px; background-color:#222222;" >
-        	<div  class="fuenteMS" style="width:100px;height:20px; vertical-align:middle; background-image:url(img/CapcaRelleu.png); padding-top:5px; padding-left:5px; cursor:pointer;" onclick="$('#MenuColor').fadeOut('slow');">
+        	<div  class="fuenteMS" style="width:100px;height:20px; vertical-align:middle; background-image:url(/img/CapcaRelleu.png); padding-top:5px; padding-left:5px; cursor:pointer;" onclick="$('#MenuColor').fadeOut('slow');">
             	Tanca Men&uacute;
             </div>
         </td>

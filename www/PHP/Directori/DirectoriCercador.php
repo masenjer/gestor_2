@@ -1,5 +1,5 @@
 <?php
-include("../../rao/PonQuita.php"); 
+include($_SERVER['DOCUMENT_ROOT']."/rao/PonQuita.php"); 
 include("DirectoriCercadorPrivat.php"); 
 include("DirectoriCercadorPublic.php"); 
 include("DirectoriComptadorResultats.php"); 
@@ -7,7 +7,7 @@ include("CategoriaDirectoriCargaSelect.php");
 
 session_start();
 
-$Conn = "../../rao/sas_con.php";
+$Conn = "/rao/rao_con.php";
 
 $text = Pon($_POST["txt"]);
 

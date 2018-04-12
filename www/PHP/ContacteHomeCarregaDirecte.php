@@ -1,5 +1,5 @@
 <?php
-include("rao/sas_con.php");
+include($_SERVER['DOCUMENT_ROOT']."/rao/rao_con.php");
 
 ini_set("session.gc_maxlifetime",3);
 session_start();
@@ -27,10 +27,10 @@ while ($row = $result->fetch_assoc()){
 	$resultado.= '
 		<div class="row block-title">
 			<div class="col-md-10">
-				<h2 class="block-title" role="heading" aria-level="2">'.$row["Titol"].'</h2>
+				<h3 class="block-title" role="heading" aria-level="2">'.$row["Titol"].'</h3>
 			</div>
 			<div class="col-md-2">
-				<h3 ><span class="glyphicon glyphicon-edit" aria-hidden="true" 	onClick="CarregaContacteEdicio()"></span></h3>
+				<h3><span class="glyphicon glyphicon-edit" aria-hidden="true" 	onClick="CarregaContacteEdicio()"></span></h3>
 			</div>
 		</div>
 		';
@@ -40,7 +40,7 @@ while ($row = $result->fetch_assoc()){
 	$resultado.= '
 		<div class="row">
 			<div class="col-md-12">
-				<h2 class="block-title" role="heading" aria-level="2">'.$row["Titol"].'</h2>
+				<h3 class="block-title" role="heading" aria-level="2">'.$row["Titol"].'</h3>
 			</div>
 			
 		</div>
@@ -48,7 +48,7 @@ while ($row = $result->fetch_assoc()){
 }		
 
 	$resultado .= '
-				<aside class="content-avisos">'.$row["Contingut"].'</aside>';
+				<aside class="content-avisos">'.$row["Contingut"].'<br></aside>';
 
 				/*
 				<tr valign="middle">					

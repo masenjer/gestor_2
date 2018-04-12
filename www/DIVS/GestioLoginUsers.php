@@ -2,27 +2,27 @@
 function MostraGestioLoginUsers()
 {
 ?>
-<div id="DIVGestioLoginUsers" style=" position:fixed; top:0; left:0; width:100%; height:100%;  background:url(img/NegroTrans.png); display:none;" >
+<div id="DIVGestioLoginUsers" style=" position:fixed; top:0; left:0; width:100%; height:100%;  background:url(/img/NegroTrans.png); display:none;" >
 <table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
 	<tr valign="middle">
     	<td align="center">
             <table cellpadding="0" cellspacing="0" border="0" align="center">
                 <tr>
-                    <td width="11px" background="img/MarcSupEsq.png"></td>
-                    <td height="11px" background="img/MarcSupC.png"></td>
-                    <td width="11px" background="img/MarcSupDret.png"></td>
+                    <td width="11px" background="/img/MarcSupEsq.png"></td>
+                    <td height="11px" background="/img/MarcSupC.png"></td>
+                    <td width="11px" background="/img/MarcSupDret.png"></td>
                 </tr>
                 <tr>
-                    <td width="11px" background="img/MarcCEsq.png"></td>
+                    <td width="11px" background="/img/MarcCEsq.png"></td>
                     <td width="522px" height="400px" bgcolor="#FFFFFF">
                     	<?php CarregaDIVLoginUsers(); ?>
                     </td>
-                    <td width="11px" background="img/MarcCDret.png"></td>
+                    <td width="11px" background="/img/MarcCDret.png"></td>
                 </tr>
                 <tr>
-                    <td width="11px" background="img/MarcInfEsq.png"></td>
-                    <td height="10px" background="img/MarcInfC.png"></td>
-                    <td width="11px" background="img/MarcInfDret.png"></td>
+                    <td width="11px" background="/img/MarcInfEsq.png"></td>
+                    <td height="10px" background="/img/MarcInfC.png"></td>
+                    <td width="11px" background="/img/MarcInfDret.png"></td>
                 </tr>
             </table>
         </td>
@@ -37,7 +37,7 @@ function CarregaDIVLoginUsers()
 ?>
 <table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="fuenteGestionNoticia"> 
 	<tr>
-    	<td height="40px" background="img/CapcaFinestreta.png"></td>
+    	<td height="40px" background="/img/CapcaFinestreta.png"></td>
     </tr>
     <tr>
     	<td height="10px"></td>
@@ -70,7 +70,7 @@ function CarregaDIVLoginUsers()
 function MostraFitxaLoginUser()
 {
 ?>
-<table width="472px" cellspacing="0" cellpadding="0" border="0" background="img/URCuadre.png">
+<table width="472px" cellspacing="0" cellpadding="0" border="0" background="/img/URCuadre.png">
 	<tr>
     	<td height="15px"></td>
     </tr>
@@ -107,7 +107,7 @@ function MostraFitxaLoginUser()
 function MostraNewUser()
 {
 ?>
-<table width="472px" cellspacing="2" cellpadding="0" border="0" background="img/UNCuadre.png">
+<table width="472px" cellspacing="2" cellpadding="0" border="0" background="/img/UNCuadre.png">
 	<tr>
     	<td height="15px"></td>
     </tr>

@@ -2,7 +2,7 @@
 function MostraGestioEnDir()
 {
 ?>
-<div id="DIVGestioEnDir" style=" position:fixed; top:0; left:0; width:100%; height:100%;  background:url(img/NegroTrans.png); display:none; z-index:1000;">
+<div id="DIVGestioEnDir" style=" position:fixed; top:0; left:0; width:100%; height:100%;  background:url(/img/NegroTrans.png); display:none; z-index:1000;">
 <input type="hidden" id="IdEnDir" />
 
 <table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
@@ -10,21 +10,21 @@ function MostraGestioEnDir()
     	<td align="center">
             <table cellpadding="0" cellspacing="0" border="0" align="center">
                 <tr>
-                    <td width="11px" background="img/MarcSupEsq.png"></td>
-                    <td height="11px" background="img/MarcSupC.png"></td>
-                    <td width="11px" background="img/MarcSupDret.png"></td>
+                    <td width="11px" background="/img/MarcSupEsq.png"></td>
+                    <td height="11px" background="/img/MarcSupC.png"></td>
+                    <td width="11px" background="/img/MarcSupDret.png"></td>
                 </tr>
                 <tr>
-                    <td width="11px" background="img/MarcCEsq.png"></td>
+                    <td width="11px" background="/img/MarcCEsq.png"></td>
                     <td width="822px" height="400px">
                     	<?php CarregaDIVEnDir(); ?>
                     </td>
-                    <td width="11px" background="img/MarcCDret.png"></td>
+                    <td width="11px" background="/img/MarcCDret.png"></td>
                 </tr>
                 <tr>
-                    <td width="11px" background="img/MarcInfEsq.png"></td>
-                    <td height="10px" background="img/MarcInfC.png"></td>
-                    <td width="11px" background="img/MarcInfDret.png"></td>
+                    <td width="11px" background="/img/MarcInfEsq.png"></td>
+                    <td height="10px" background="/img/MarcInfC.png"></td>
+                    <td width="11px" background="/img/MarcInfDret.png"></td>
                 </tr>
             </table>
         </td>
@@ -42,9 +42,9 @@ function CarregaDIVEnDir()
 ?>
 <table width="100%" height="100%"  cellpadding="0" cellspacing="0" border="0" align="center" class="fuenteGestionNoticia">
 	<tr valign="top">
-    	<td background="img/GrisTrans.png" width="220px" valign="top"><?php CarregaDIVEnDirEsq(); ?></td>
+    	<td background="/img/GrisTrans.png" width="220px" valign="top"><?php CarregaDIVEnDirEsq(); ?></td>
         <td width="2px" bgcolor="#7e7e7e"></td>
-        <td background="img/BlancoTrans2.png" width="600px"><?php CarregaDIVEnDirDret(); ?></td>
+        <td background="/img/BlancoTrans2.png" width="600px"><?php CarregaDIVEnDirDret(); ?></td>
     </tr>
 </table>
 <?php
@@ -73,7 +73,7 @@ function CarregaDIVEnDirEsq()
     	<td>
         	<table cellpadding="0" cellspacing="0" border="0">
             	<tr valign="top">
-                    <td background="img/CabHistoricoEnDir.png" width="209px" height="29px"></td>
+                    <td background="/img/CabHistoricoEnDir.png" width="209px" height="29px"></td>
                 </tr>
                 <tr valign="top">
                     <td height="200px">

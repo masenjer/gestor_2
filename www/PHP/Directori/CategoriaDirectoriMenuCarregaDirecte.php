@@ -1,7 +1,7 @@
 <?php
 
 error_reporting (5); 
-include("rao/sas_con.php"); 
+include($_SERVER['DOCUMENT_ROOT']."/rao/rao_con.php"); 
 
 ini_set('session.cache_expire',3);
 ini_set("session.gc_maxlifetime",3);
@@ -92,7 +92,7 @@ if ($_SESSION["Creacio"]=="1")
 		</tr>
 		<tr valign="bottom">
 			<td colspan="5" align="right">
-				<img id="ImageML" src="img/TitolButton.jpg" onClick="NovaCategoriaDirectoriTitol()" title="Nou T&iacute;tol"><img id="ImageML" src="img/plus.jpg" onClick="NovaCategoriaDirectori()" title="Nova Categoria">
+				<img id="ImageML" src="/img/TitolButton.jpg" onClick="NovaCategoriaDirectoriTitol()" title="Nou T&iacute;tol"><img id="ImageML" src="/img/plus.jpg" onClick="NovaCategoriaDirectori()" title="Nova Categoria">
 			</td>
 		</tr>';
 		

@@ -2,27 +2,27 @@
 function MostraFormulariInscripcions()
 {
 ?>
-<div id="DIVFormulariInscripcions" style=" position:fixed; top:0; left:0; width:100%; height:100%;  background:url(img/NegroTrans.png); display:none;" >
+<div id="DIVFormulariInscripcions" style=" position:fixed; top:0; left:0; width:100%; height:100%;  background:url(/img/NegroTrans.png); display:none;" >
 <table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
 	<tr valign="middle">
     	<td align="center">
             <table cellpadding="0" cellspacing="0" border="0" align="center">
                 <tr>
-                    <td width="11px" background="img/MarcSupEsq.png"></td>
-                    <td height="11px" background="img/MarcSupC.png"></td>
-                    <td width="11px" background="img/MarcSupDret.png"></td>
+                    <td width="11px" background="/img/MarcSupEsq.png"></td>
+                    <td height="11px" background="/img/MarcSupC.png"></td>
+                    <td width="11px" background="/img/MarcSupDret.png"></td>
                 </tr>
                 <tr>
-                    <td width="11px" background="img/MarcCEsq.png"></td>
+                    <td width="11px" background="/img/MarcCEsq.png"></td>
                     <td width="522px" height="400px" bgcolor="#FFFFFF" align="center">
                     	<?php CarregaDIVFormulariIncripcions(); ?>
                     </td>
-                    <td width="11px" background="img/MarcCDret.png"></td>
+                    <td width="11px" background="/img/MarcCDret.png"></td>
                 </tr>
                 <tr>
-                    <td width="11px" background="img/MarcInfEsq.png"></td>
-                    <td height="10px" background="img/MarcInfC.png"></td>
-                    <td width="11px" background="img/MarcInfDret.png"></td>
+                    <td width="11px" background="/img/MarcInfEsq.png"></td>
+                    <td height="10px" background="/img/MarcInfC.png"></td>
+                    <td width="11px" background="/img/MarcInfDret.png"></td>
                 </tr>
             </table>
         </td>
@@ -37,7 +37,7 @@ function CarregaDIVFormulariIncripcions()
 ?>
 <table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="fuenteGestionNoticia"> 
 	<tr>
-    	<td height="40px" background="img/CapcaFormInsc.png"></td>
+    	<td height="40px" background="/img/CapcaFormInsc.png"></td>
     </tr>
     <tr>
     	<td height="20px"></td>
@@ -69,7 +69,7 @@ function CarregaDIVFormulariIncripcions()
 function MostraFormInsc()
 {
 ?>
-<table  cellspacing="2" cellpadding="0" border="0" background="img/FormInscCuadre.png">
+<table  cellspacing="2" cellpadding="0" border="0" background="/img/FormInscCuadre.png">
 	<tr>
     	<td height="15px"></td>
     </tr>
@@ -163,7 +163,7 @@ function MostraFormInsc()
 function TextForm()
 {
 ?>
-<table width="493px"  cellspacing="2" cellpadding="0" border="0" background="img/CapcaCuadre.png">
+<table width="493px"  cellspacing="2" cellpadding="0" border="0" background="/img/CapcaCuadre.png">
 	<tr>
     	<td height="15px"></td>
     </tr>

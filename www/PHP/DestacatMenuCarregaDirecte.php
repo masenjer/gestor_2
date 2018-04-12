@@ -1,5 +1,5 @@
 <?php
-include("rao/sas_con.php");
+include($_SERVER['DOCUMENT_ROOT']."/rao/rao_con.php");
 
 ini_set("session.gc_maxlifetime",3);
 session_start();
@@ -106,7 +106,7 @@ function CreaDestacatButton($cadena)
 	  <tr valign="middle">
 		  <td>
 			  <div class="DestacatButton" style="width:198px;height:41px; background-color:'.$color1.'; border: solid 1px '.$color1.'; ">
-				  <div style="width:100%;height:41px;background:URL(img/MaskButton.png);">
+				  <div style="width:100%;height:41px;background:URL(/img/MaskButton.png);">
 					  <table width="100%" height="100%" cellspacing="0" cellpadding="0" border="0">
 						  <tr valign="middle">
 							  <td width="100%" height="100%" valign="middle" align="center">

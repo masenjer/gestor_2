@@ -1,7 +1,7 @@
 <?php
 function CS()
 {
-	include ("../rao/sas_con.php");	
+	include($_SERVER['DOCUMENT_ROOT']."/rao/rao_con.php");	
 	session_start();
 	
 	$c = explode("|",$_SESSION["dsalkdjfkaldjfkldasjfkadjfkjdasf"]);

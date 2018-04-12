@@ -2,7 +2,7 @@
 
 function MostraPublicacionsPrivatLlibres($txt,$tipus)
 {
-	include("../../rao/sas_con.php"); 
+	include($_SERVER['DOCUMENT_ROOT']."/rao/rao_con.php"); 
 	
 	if ($txt)
 	{	

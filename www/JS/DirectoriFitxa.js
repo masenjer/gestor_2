@@ -4,9 +4,9 @@ var PestanyasDirectoriFitxa = new Pestanyas();
 function InicializaPestanyas(){ //Se llama desde DIVS/DirectoriFitxa.php
 	
 	var config1 = {
-		filebrowserBrowseUrl : 'ckfinder/ckfinder.html',
-		filebrowserImageBrowseUrl : 'ckfinder/ckfinder.html?Type=Images',
-		filebrowserFlashBrowseUrl : 'ckfinder/ckfinder.html?Type=Flash',
+		filebrowserBrowseUrl : '/vendor/ckfinder/ckfinder.html',
+		filebrowserImageBrowseUrl : '/vendor/ckfinder/ckfinder.html?Type=Images',
+		filebrowserFlashBrowseUrl : '/vendor/ckfinder/ckfinder.html?Type=Flash',
 		filebrowserUploadUrl : 'PHP/UploadFiles.php?op=1'
 	};
 

@@ -1,6 +1,6 @@
 <?php
 session_start();
-include("../rao/sas_con.php");
+include($_SERVER['DOCUMENT_ROOT']."/rao/rao_con.php");
 
 $idCap = $_GET["IdCap"];
 $IdLin = $_GET["IdLin"];

@@ -1,4 +1,5 @@
 <?php session_start(); 
+include($_SERVER['DOCUMENT_ROOT']."/rao/ini.php");
 header('Content-Type: text/html; charset=utf-8');
 $_SESSION["IdSite"] = 0;
 header('Content-type: text/html; charset=utf-8');?>
@@ -12,8 +13,8 @@ header('Content-type: text/html; charset=utf-8');?>
     	
 	<?php //include("PHP/ColorsCanviaGlobal.php");?>
 <?php include("Includes/IncludesCSS.php");?>
-<title>Institut de Neuroci&egrave;ncies (INc) - UAB Barcelona</title>
-<meta name="description" content="Institut de recerca  que investiga les qüestions clau del cervell de forma multidisciplinar i translacional amb l’objectiu de desenvolupar noves teràpies per al tractament de patologies cerebrals.">    	
+<title><?php echo $titol_APP; ?></title>
+<meta name="description" content=" <?php echo "descripcio_APP"; ?>" />      
 <?php include("Includes/IncludesJSDirectori.php");?> 
 </head>
 

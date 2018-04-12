@@ -16,7 +16,7 @@ $_SESSION["IdSite"] = 0;
 
 <?php
 	//////Crea los metas title y description para el robot de google
-	include("rao/sas_con.php");
+	include($_SERVER['DOCUMENT_ROOT']."/rao/rao_con.php");
 	
 	$SQL = "SELECT Nom, Cognoms, Email, Telefon FROM Directori WHERE  IdDirectori = ".$_GET["id"];
 	
@@ -28,7 +28,6 @@ $_SESSION["IdSite"] = 0;
 	}
 
 ?>
-<meta name="description" content="Institut de recerca  que investiga les qüestions clau del cervell de forma multidisciplinar i translacional amb l’objectiu de desenvolupar noves teràpies per al tractament de patologies cerebrals.">
 
 
 </head>

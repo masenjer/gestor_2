@@ -1,4 +1,7 @@
 <?php session_start(); 
+
+include($_SERVER['DOCUMENT_ROOT']."/rao/ini.php");
+
 header('Content-Type: text/html; charset=utf-8');
 
 $_SESSION["IdSite"] = 0;
@@ -13,7 +16,8 @@ $_SESSION["IdSite"] = 0;
     	
 	<?php //include("PHP/ColorsCanviaGlobal.php");?>
 <?php include("Includes/IncludesCSS.php");?>
-<title>Institut de Neuroci&egrave;ncies (INc) - UAB Barcelona</title>
+<title><?php echo $titol_APP; ?></title>
+<meta name="description" content=" <?php echo "descripcio_APP"; ?>" />      
 <?php include("Includes/IncludesJSNews.php");?> 
 </head>
 

@@ -15,17 +15,17 @@
 	
 	<meta name="viewport" content="width=device-width, user-scalable=no">
 
-    <link rel="stylesheet" type="text/css" href="CSS/Form.css" title="styles1" media="screen" />
-	<link rel="stylesheet" type="text/css" href="CSS/Buttons.css" title="styles1" media="screen" />
-	<link rel="stylesheet" type="text/css" href="CSS/Estila.php" title="styles1" media="screen" />
-	<link rel="alternate stylesheet" type="text/css" href="CSS/Estilaa.php" title="styles2" media="screen" />
-	<link rel="alternate stylesheet" type="text/css" href="CSS/Estilaaa.php" title="styles3" media="screen"/>	
-    <link rel="stylesheet" type="text/css" href="CSS/ui-lightness/jquery-ui-1.8.7.custom.css"/>
+    <link rel="stylesheet" type="text/css" href="/CSS/Form.css" title="styles1" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/CSS/Buttons.css" title="styles1" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/CSS/Estila.php" title="styles1" media="screen" />
+	<link rel="alternate stylesheet" type="text/css" href="/CSS/Estilaa.php" title="styles2" media="screen" />
+	<link rel="alternate stylesheet" type="text/css" href="/CSS/Estilaaa.php" title="styles3" media="screen"/>	
+    <link rel="stylesheet" type="text/css" href="/CSS/ui-lightness/jquery-ui-1.8.7.custom.css"/>
     
-	<link rel="stylesheet" type="text/css" href="CSS/colorpicker/colorpicker.css" media="screen" />
-	<link rel="stylesheet" type="text/css" href="CSS/colorpicker/layout.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/CSS/colorpicker/colorpicker.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/CSS/colorpicker/layout.css" media="screen" />
 
-	<link rel="stylesheet" type="text/css" href="CSS/Auxiliars.php" title="styles1" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/CSS/Auxiliars.php" title="styles1" media="screen" />
     
-    <link rel="stylesheet" type="text/css" href="CSS/Pestanyas.css" title="styles1" media="screen" />
-    <link rel="stylesheet" type="text/css" href="CSS/style_i-FM.css" title="styles1" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/CSS/Pestanyas.css" title="styles1" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/CSS/style_i-FM.css" title="styles1" media="screen" />

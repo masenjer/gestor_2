@@ -1,7 +1,7 @@
 <?php
 
 error_reporting (5); 
-include("../rao/sas_con.php"); 
+include($_SERVER['DOCUMENT_ROOT']."/rao/rao_con.php"); 
 
 ini_set('session.cache_expire',3);
 ini_set("session.gc_maxlifetime",3);
@@ -60,7 +60,7 @@ while ($row = $result->fetch_assoc()){
 			<table cellpadding="0" cellspacing="0" border="0">
 				<tr>
 					<td>sadsadas
-						<input type="text" style="width:20px; height:20px; vertical-align:middle;" id="OrdenCategoriaDirectori'.$row["IdDirectoriCategoria"].'" value="'.$row["Orden"].'"  onKeyPress="submitenter(13,event,'.$row["IdDirectoriCategoria"].')"><img id="ImageML" src="img/delete.jpg" onClick="MostraDirectoriDelete('.$row["IdDirectoriCategoria"].');" style="width:20px; height:20px; vertical-align:middle;"  ></td>
+						<input type="text" style="width:20px; height:20px; vertical-align:middle;" id="OrdenCategoriaDirectori'.$row["IdDirectoriCategoria"].'" value="'.$row["Orden"].'"  onKeyPress="submitenter(13,event,'.$row["IdDirectoriCategoria"].')"><img id="ImageML" src="/img/delete.jpg" onClick="MostraDirectoriDelete('.$row["IdDirectoriCategoria"].');" style="width:20px; height:20px; vertical-align:middle;"  ></td>
 				</tr>
 			</table>			
 		</td>
@@ -80,7 +80,7 @@ if ($_SESSION["Creacio"]=="1")
 		</tr>
 		<tr valign="bottom">
 			<td colspan="5" align="right">
-				<img id="ImageML" src="img/TitolButton.jpg" onClick="NovaCategoriaDirectoriTitol()" title="Nou T&iacute;tol"><img id="ImageML" src="img/plus.jpg" onClick="NovaCategoriaDirectori()" title="Nova Categoria">
+				<img id="ImageML" src="/img/TitolButton.jpg" onClick="NovaCategoriaDirectoriTitol()" title="Nou T&iacute;tol"><img id="ImageML" src="/img/plus.jpg" onClick="NovaCategoriaDirectori()" title="Nova Categoria">
 			</td>
 		</tr>';
 		

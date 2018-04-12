@@ -1,7 +1,7 @@
 <?php
 function ComptadorResultatsPublicacions($cond, $tipus)
 {
-	include("../../rao/sas_con.php"); 
+	include($_SERVER['DOCUMENT_ROOT']."/rao/rao_con.php"); 
 	
 	switch ($tipus)
 	{

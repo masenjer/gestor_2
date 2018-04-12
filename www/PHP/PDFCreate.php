@@ -1,7 +1,7 @@
 <?php
-include("../rao/sas_con.php");
-include("../rao/PonQuita.php"); 
-require("../dompdf/dompdf_config.inc.php"); 
+include($_SERVER['DOCUMENT_ROOT']."/rao/rao_con.php");
+include($_SERVER['DOCUMENT_ROOT']."/rao/PonQuita.php"); 
+require(($_SERVER['DOCUMENT_ROOT']."/vendor/dompdf/dompdf_config.inc.php"); 
 
 error_reporting(0);
 

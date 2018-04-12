@@ -1,7 +1,7 @@
 <?php
 error_reporting (5); 
-include("../rao/sas_con.php");
-include("../rao/PonQuita.php"); 
+include($_SERVER['DOCUMENT_ROOT']."/rao/rao_con.php");
+include($_SERVER['DOCUMENT_ROOT']."/rao/PonQuita.php"); 
 
 $id = $_GET["id"]; 
 
@@ -62,7 +62,7 @@ echo $Titol ."|". $Contingut."|".$Ruta."|".$id.",".$_GET["op"]."|".$IdCap;
 <?php
 function BuscaRuta($IdLin)
 {
-	include("../rao/sas_con.php");
+	include($_SERVER['DOCUMENT_ROOT']."/rao/rao_con.php");
 	
 	$SQL = "SELECT Titol,IdLinMenuRel, IdCapMenu FROM LinMenu WHERE IdLinMenu = ".$IdLin;
 	if (!$result = $mysqli->query($SQL))printf("Errormessage: %s\n", mysqli_error($mysqli));

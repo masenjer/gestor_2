@@ -38,7 +38,7 @@ function MostraDirectoriFitxa()
             <div id="CuerpoPestanyaDirectoriFitxa" class="CuerpoPestanya fuenteContingut">
 				<?php 
 					
-					include("rao/sas_con.php");
+					include($_SERVER['DOCUMENT_ROOT']."/rao/rao_con.php");
 					
 					$SQL = "SELECT Perfil, Inves, Publi FROM Directori WHERE  IdDirectori = ".$_GET["id"];
 				

@@ -2,7 +2,7 @@
 function MostraGestioDestacats()
 {
 ?>
-<div id="DIVGestioDestacats" style=" position:fixed; top:0; left:0; width:100%; height:100%;  background:url(img/NegroTrans.png); display:none; z-index:1000;">
+<div id="DIVGestioDestacats" style=" position:fixed; top:0; left:0; width:100%; height:100%;  background:url(/img/NegroTrans.png); display:none; z-index:1000;">
 <input type="hidden" id="IdDestacat" />
 <input type="hidden" id="ColorBotoDestacat" value="#ff9900" />
 <input type="hidden" id="ColorTextDestacat" value="#ffffff" />
@@ -17,21 +17,21 @@ function MostraGestioDestacats()
     	<td align="center">
             <table cellpadding="0" cellspacing="0" border="0" align="center">
                 <tr>
-                    <td width="11px" background="img/MarcSupEsq.png"></td>
-                    <td height="11px" background="img/MarcSupC.png"></td>
-                    <td width="11px" background="img/MarcSupDret.png"></td>
+                    <td width="11px" background="/img/MarcSupEsq.png"></td>
+                    <td height="11px" background="/img/MarcSupC.png"></td>
+                    <td width="11px" background="/img/MarcSupDret.png"></td>
                 </tr>
                 <tr>
-                    <td width="11px" background="img/MarcCEsq.png"></td>
+                    <td width="11px" background="/img/MarcCEsq.png"></td>
                     <td width="822px" height="400px">
                     	<?php CarregaDIVDestacats(); ?>
                     </td>
-                    <td width="11px" background="img/MarcCDret.png"></td>
+                    <td width="11px" background="/img/MarcCDret.png"></td>
                 </tr>
                 <tr>
-                    <td width="11px" background="img/MarcInfEsq.png"></td>
-                    <td height="10px" background="img/MarcInfC.png"></td>
-                    <td width="11px" background="img/MarcInfDret.png"></td>
+                    <td width="11px" background="/img/MarcInfEsq.png"></td>
+                    <td height="10px" background="/img/MarcInfC.png"></td>
+                    <td width="11px" background="/img/MarcInfDret.png"></td>
                 </tr>
             </table>
         </td>
@@ -49,9 +49,9 @@ function CarregaDIVDestacats()
 ?>
 <table width="100%" height="100%"   cellpadding="0" cellspacing="0" border="0" align="center" class="fuenteGestionNoticia">
 	<tr valign="top">
-    	<td background="img/GrisTrans.png" width="220px" valign="top"><?php CarregaDIVDestacatsEsq(); ?></td>
+    	<td background="/img/GrisTrans.png" width="220px" valign="top"><?php CarregaDIVDestacatsEsq(); ?></td>
         <td width="2px" bgcolor="#7e7e7e"></td>
-        <td background="img/BlancoTrans2.png" width="600px"><?php CarregaDIVDestacatsDret(); ?></td>
+        <td background="/img/BlancoTrans2.png" width="600px"><?php CarregaDIVDestacatsDret(); ?></td>
     </tr>
 </table>
 <?php
@@ -80,7 +80,7 @@ function CarregaDIVDestacatsEsq()
     	<td>
         	<table cellpadding="0" cellspacing="0" border="0">
             	<tr valign="top">
-                    <td background="img/CabHistoricoDestacats.png" width="209px" height="29px"></td>
+                    <td background="/img/CabHistoricoDestacats.png" width="209px" height="29px"></td>
                 </tr>
                 <tr valign="top">
                     <td height="200px">
@@ -200,7 +200,7 @@ function MostraGestioBotoDestacats()
                     <td id="BordeC1Button" style=" background-color:#ff9900; width:1px;"></td>
                     <td>
                         <div id="DivFonsButtonProva" style="width:206px;height:41px; background-color:#ff9900">
-                            <div style="width:206px;height:41px;background:URL(img/MaskButton.png);">
+                            <div style="width:206px;height:41px;background:URL(/img/MaskButton.png);">
                                 <table width="100%" height="100%" cellspacing="0" cellpadding="0" border="0">
                                     <tr valign="middle">
                                         <td width="100%" height="100%" valign="middle" align="center">

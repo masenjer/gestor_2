@@ -1,6 +1,10 @@
 <?php
-include("../rao/sas_con.php");
-include("../rao/PonQuita.php"); 
+
+try{
+
+
+include($_SERVER['DOCUMENT_ROOT']."/rao/rao_con.php");
+include($_SERVER['DOCUMENT_ROOT']."/rao/PonQuita.php"); 
 session_start();
 
 $id = $_GET["id"];
@@ -14,8 +18,7 @@ $SQL = "SELECT COUNT(*) as Cuenta from Contacte WHERE  IdSite =".$_SESSION["IdSi
 $Cuenta = "";
 
 if (!$result = $mysqli->query($SQL))printf("Errormessage: %s\n", mysqli_error($mysqli)); 
-while ($row = $result->fetch_assoc()){
-{	
+while ($row = $result->fetch_assoc()){	
 	$Cuenta = $row["Cuenta"];	
 }
 
@@ -29,5 +32,9 @@ if ($Cuenta!="0")
 else $SQL = "INSERT INTO Contacte (Titol, Contingut, URL, IdSite) VALUES ('$Titol','$TE','$URL', ".$_SESSION["IdSite"].")";							
 
 if (!$result = $mysqli->query($SQL))printf("Errormessage: %s\n", mysqli_error($mysqli)); 
+}
+catch(Exception $e){
+	echo $e;
+}
 
 ?>
