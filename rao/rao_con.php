@@ -1,6 +1,6 @@
 <?php	
 
-$mysqli = new mysqli("localhost", "master_pie", 'diabetico', "master_pie_diabetico");  
+$mysqli = new mysqli("localhost", "gestor", 'hafkljdfhajkd4324!!"*2dss', "gestor_2");  
 
 /* check connection */
 if (mysqli_connect_errno()) {
